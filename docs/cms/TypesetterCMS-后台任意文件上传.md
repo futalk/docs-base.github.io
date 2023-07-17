@@ -4,7 +4,7 @@
 
 可以通过将.php放在.zip文件中并解压缩来绕过对.php文件的保护。一旦完成，就可以使用恶意的php文件（webshell）在计算机上执行命令
 
-## 影响版本
+## 漏洞影响
 
 ```
 Typesetter CMS 5-5.1
@@ -14,7 +14,7 @@ Typesetter CMS 5-5.1
 
 按如下步骤复现
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170930270.gif)
+![](./images/202202170930270.gif)
 
 ## 参考文章
 

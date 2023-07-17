@@ -4,7 +4,7 @@
 
 天融信负载均衡 TopAPP-LB产品旧版本在管理面存在SQL注入漏洞，具体为在可以访问管理服务情况 下，攻击者通过构造恶意请求，利用系统检查输入条件不严格的缺陷，进一步可获取部分系统本地信息
 
-## 影响版本
+## 漏洞影响
 
 ```
 天融信负载均衡TopApp-LB
@@ -46,11 +46,11 @@ t=l&e=0&s=t&l=1&vid=2147483647 or 1=1&gid=0&lmt=10&o=r_Speed&asc=false&p=8&lipf=
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091922470.png)
+![](./images/202202091922470.png)
 
 
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091922937.png)
+![](./images/202202091922937.png)
 
 
 

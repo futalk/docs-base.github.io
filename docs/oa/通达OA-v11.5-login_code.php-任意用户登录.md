@@ -5,7 +5,7 @@
 通达OA是一套办公系统。2020年04月17日, 通达OA官方在更新了一个v11版本安全补丁, 其中修复了一个任意用户伪造登录漏洞。
 该漏洞类型为任意用户伪造，未经授权的远程攻击者可以通过精心构造的请求包进行任意用户伪造登录。
 
-## 影响版本
+## 漏洞影响
 
 ```
 通达OA 2017版
@@ -22,7 +22,7 @@ https://cdndown.tongda2000.com/oa/2019/TDOA11.4.exe
 
 双击安装即可
 
-![image-20220209105714403](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091057824.png)
+![image-20220209105714403](./images/202202091057824.png)
 
 
 
@@ -37,7 +37,7 @@ root@kali:~/桌面# python3 1.py -v 11 -u http://xx.xxx.xxx.xxx
 
 成功获得Cookie,添加Cookie访问 [**http://xxx.xxx.xxx.xxx/general/index.php?isIE=0&modify_pwd=0**](http://xxx.xxx.xxx.xxx/general/index.php?isIE=0&modify_pwd=0)即可
 
-![image-20220209105731535](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091057599.png)
+![image-20220209105731535](./images/202202091057599.png)
 
 ## 漏洞POC
 

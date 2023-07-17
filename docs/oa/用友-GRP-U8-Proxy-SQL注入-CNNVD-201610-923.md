@@ -4,7 +4,7 @@
 
 用友GRP-u8存在XXE漏洞，该漏洞源于应用程序解析XML输入时没有进制外部实体的加载，导致可加载外部SQL语句，以及命令执行
 
-## 影响版本
+## 漏洞影响
 
 ```
 用友GRP-U8行政事业内控管理软件（新政府会计制度专版）
@@ -34,19 +34,19 @@ cVer=9.8.0&dp=<?xml version="1.0" encoding="GB2312"?><R9PACKET version="1"><DATA
 
 请求后按F12查看源代码可以得到SQL语句查询结果
 
-![yongyou-7-1](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-7-1.png)
+![yongyou-7-1](./images/yongyou-7-1.png)
 
 
 
-![yongyou-7-2](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-7-2.png)
+![yongyou-7-2](./images/yongyou-7-2.png)
 
 也可以调用 **xp_cmdshell** 来执行系统命令(大部分此系统为**windows**)
 
-![yongyou-7-3](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-7-3.png)
+![yongyou-7-3](./images/yongyou-7-3.png)
 
 - 注意：大部分默认是不开启 xp_cmdshell 模块的
 
-![yongyou-7-4](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-7-4.png)
+![yongyou-7-4](./images/yongyou-7-4.png)
 
 可以使用如下方法打开**xp_cmdshell方法**
 
@@ -231,4 +231,4 @@ if __name__ == '__main__':
             POC_3(target_url, cmd)
 ```
 
-![yongyou-7-5](https://typora-1308934770.cos.ap-beijing.myqcloud.com/yongyou-7-5.png)
+![yongyou-7-5](./images/yongyou-7-5.png)

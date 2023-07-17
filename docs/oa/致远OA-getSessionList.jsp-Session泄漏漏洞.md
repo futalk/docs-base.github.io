@@ -1,10 +1,10 @@
 # 致远OA getSessionList.jsp Session泄漏漏洞
 
-## 洞描述
+## 漏洞描述
 
 通过使用存在漏洞的请求时，会回显部分用户的Session值，导致出现任意登录的情况
 
-## 影响版本
+## 漏洞影响
 
 未知
 
@@ -59,6 +59,6 @@ app="致远互联-OA"
 
 回显Session则存在漏洞
 
-![image-20220520153805805](https://typora-notes-1308934770.cos.ap-beijing.myqcloud.com/202205201538850.png)
+![image-20220520153805805](./images/202205201538850.png)
 
 通过替换 Session即可登陆系统

