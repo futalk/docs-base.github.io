@@ -25,7 +25,7 @@ app="网康科技-下一代防火墙"
 发送如下请求包
 
 ```plain
-![2](C:\Users\47236\Desktop\2.png)POST /directdata/direct/router HTTP/1.1
+POST /directdata/direct/router HTTP/1.1
 Host: XXX.XXX.XXX.XXX
 Connection: close
 Content-Length: 179

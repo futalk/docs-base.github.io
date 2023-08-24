@@ -10,10 +10,70 @@
 
 **【最近更新】**
 
+- 2023.08.03
+  - Vulhub/Metabase未授权JDBC远程代码执行漏洞-CVE-2023-38646.md
+  
+- 2023.08.01
+  - 服务器应用漏洞/Apache-RocketMQ-远程代码执行漏洞-CVE-2023-37582.md
+
+  - CMS漏洞/禅道-项目管理系统远程命令执行漏洞-CNVD-2023-02709.md
+
+  - 开发框架漏洞/Apache-Commons-Text-远程代码执行漏洞-CVE-2022-42889.md
+
+  - 开发框架漏洞/Fastjson-远程代码执行漏洞-CVE-2022-25845.md
+
+  - 开发框架漏洞/Spring-Framework-安全绕过漏洞-CVE-2023-20860.md
+
+  - 开发框架漏洞/ThinkPHP-命令执行漏洞-CNVD-2022-86535.md
+
+  - OA漏洞/泛微OA-E-Cology-ofsLogin.jsp-前台任意用户登录漏洞.md
+
+  - OA漏洞/用友-NC-Cloud-远程代码执行漏洞-CNVD-C-2023-76801.md
+
+  - 其他漏洞/Foxit-PDF-Reader-及-Editor-任意代码执行漏洞-CVE-2023-27363.md
+
+  - 其他漏洞/Microsoft-Outlook-权限提升漏洞-CVE-2023-23397.md
+
+  - Web应用漏洞/Alibaba-Nacos-集群-Raft-反序列化漏洞-CNVD-2023-45001.md
+
+  - Web应用漏洞/Apache-Airflow-远程代码执行漏洞-CVE-2022-40127.md
+
+  - Web应用漏洞/Atlassian-Bitbucket-Data-Center-远程代码执行漏洞-CVE-2022-26133.md
+
+  - Web应用漏洞/KubeOperator_kubeconfig_未授权访问漏洞_CVE-2023-22480.md
+
+  - Web应用漏洞/Smartbi-登录绕过漏洞.md
+
+  - Web应用漏洞/Smartbi-远程命令执行漏洞.md
+
+  - Web应用漏洞/瑞友天翼应用虚拟化系统-AgentBoard.XGI-远程代码执行漏洞.md
+
+  - Web应用漏洞/用友-畅捷通-T+-前台远程命令执行漏洞-QVD-2023-13615.md
+
+  - Web应用漏洞/金蝶-K3Cloud-BinaryFormatter-反序列化漏洞.md
+
+  - Web服务器漏洞/Apache-Druid-远程代码执行漏洞-QVD-2023-9629.md
+
+  - Web服务器漏洞/Apache-Solr-代码执行漏洞-CNVD-2023-27598.md
+
+- 2023.07.27
+  - OA漏洞/泛微OA e-cology FileDownloadForOutDoc前台SQL注入漏洞.md
+  - Vulhub/Gitlist-0.6.0-远程命令执行漏洞-CVE-2018-1000533.md
+  - Vulhub//JBoss-5.x6.x-反序列化漏洞-CVE-2017-12149.md
+  - Vulhub//Ruby-NetFTP-模块命令注入漏洞-CVE-2017-17405.md
+  - Web服务器漏洞/Apache-Shiro-1.6.0-身份认证绕过漏洞-CVE-2020-13933.md
+
+- 2023.07.17
+  - 云安全漏洞/K8s-etcd未授权访问.md
+
+  - 开发框架漏洞/Spring-Cloud-Config-目录遍历漏洞-CVE-2019-3799.md
+
+  - Web应用漏洞/Atlassian-Confluence-敏感信息泄露-CVE-2021-26085.md
+
+  - Web应用漏洞/Atlassian-Jira-敏感信息泄露-CVE-2021-26086.md
 - 2023.07.11
   - Vulhub/Adminer-ElasticSearch-和-ClickHouse-错误页面SSRF漏洞-CVE-2021-21311.md
   - Vulhub/Adminer-远程文件读取-CVE-2021-43008.md
-  
 - 2023.07.05
   - OA漏洞/致远OA-wpsAssistServlet-任意文件上传漏洞.md
   - OA漏洞/蓝凌OA-treexml.tmpl-远程命令执行漏洞.md
@@ -24,7 +84,7 @@
   - Web应用漏洞/nginxWebUI-runCmd-远程命令执行漏洞.md
   - Web应用漏洞/Atlassian-Jira-Server-及-Data-Center-信息泄露漏洞-CVE-2020-14179.md
   - Web应用漏洞/Atlassian-Jira-Mobile-Plugin-SSRF漏洞-CVE-2022-26135.md
-    docs-base/docs/language/JDWP调试接口-RCE-漏洞.md
+  - 开发语言漏洞/JDWP调试接口-RCE-漏洞.md
   - 网络设备漏洞/大华-智慧园区综合管理平台-user_save.action-任意文件上传漏洞.md
   - 网络设备漏洞/大华 城市安防监控系统平台管理 attachment_downloadByUrlAtt.action 任意文件下载漏洞.md
   - 网络设备漏洞/HIKVISION-iVMS-8700综合安防管理平台-upload.action-任意文件上传漏洞.md

@@ -121,6 +121,7 @@
 * [Liferay-Portal-CE-反序列化命令执行漏洞-CVE-2020-7961](vulhub/Liferay-Portal-CE-反序列化命令执行漏洞-CVE-2020-7961.md)
 * [Magento-2.2-SQL注入漏洞](vulhub/Magento-2.2-SQL注入漏洞.md)
 * [Metabase任意文件读取漏洞-CVE-2021-41277](vulhub/Metabase任意文件读取漏洞-CVE-2021-41277.md)
+* [Metabase未授权JDBC远程代码执行漏洞-CVE-2023-38646](vulhub/Metabase未授权JDBC远程代码执行漏洞-CVE-2023-38646.md)
 * [mini_httpd任意文件读取漏洞-CVE-2018-18778](vulhub/mini_httpd任意文件读取漏洞-CVE-2018-18778.md)
 * [MinIO集群模式信息泄露漏洞-CVE-2023-28432](vulhub/MinIO集群模式信息泄露漏洞-CVE-2023-28432.md)
 * [Mojarra-JSF-ViewState-反序列化漏洞](vulhub/Mojarra-JSF-ViewState-反序列化漏洞.md)
